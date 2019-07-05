@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="./images/blog.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog Stage B1 Info</title>
+</head>
+<body>
+    <header>
+        <h1>Mon experience en entreprise</h1>
+        <ul class="nav nav-tabs">  
+            <li class="nav-item">    
+                <a class="nav-link active" href="#">Histoire</a>  
+            </li>  
+            <li class="nav-item dropdown">    
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Missions</a>    
+                <div class="dropdown-menu">      
+                    <a class="dropdown-item" href="#mission_1">Mission 1</a>      
+                    <a class="dropdown-item" href="#mission_2">Mission 2</a>      
+                    <a class="dropdown-item" href="#mission_3">Mission 3</a>        
+                </div>  
+            </li>  
+            <li class="nav-item dropdown">    
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Semaines</a>    
+                <div class="dropdown-menu">      
+                    <a class="dropdown-item" href="#semaine_1">Semaine 1</a>      
+                    <a class="dropdown-item" href="#semaine_2">Semaine 2</a>      
+                    <a class="dropdown-item" href="#semaine_3">Semaine 3</a>        
+                    <a class="dropdown-item" href="#semaine_4">Semaine 4</a>        
+                    <a class="dropdown-item" href="#semaine_5">Semaine 5</a>        
+                    <a class="dropdown-item" href="#semaine_6">Semaine 6</a>        
+                </div>  
+            </li>  
+            <li class="nav-item">    
+                <a class="nav-link" href="#">Compétences</a>  
+            </li>
+        </ul> 
+    </header>
+    <main>
+        
+        <section id="presentation_algam">
+            <h2>Algam</h2>
+            <div id="histoire">
+                <h3>Présentation de l'entreprise</h3>
+                <p>Algam est une entreprise de 259 employés dont 243 sont présents sur le site Thouaré.
+                    Le directeur Gérard Garnier est le fondateur de l'entreprise. Algam a été créée en 1971. C'est une
+                    société familiale et cela se reflète dnas l'ambiance qui règne au sein de l'entreprise.</p>
+            </div>
+            
+            <div id="open_space">
+                <h3>L'open space</h3>
+                <p>Je travaille avec l'équipe Web, celle-ci est placée dans l'open space. C'est un endroit particulié pour travailler mais c'est une experience très intéressante. Comparé à un travail en bureau l'ambiance de mélange des différents services est géniale. Cependant les différentes personnes s'accordent à dire que la concentration est plus compliquée à garder, ce dont je me suis moi même rendu compte.</p>
+            </div>
+            <div id="section_web">
+                <h3>L'équipe Web</h3>
+                <ul>
+                    <li>Gwénolé LE GURUDEC : Directeur technique Web</li>
+                    <img src="images/cto.PNG" alt="Gwénolé LE GURUDEC">
+                    <li>Emmanuel DESMARIE : Responsable Développement Internet</li>
+                    <img src="images/manu.jpg" alt="Emmanuel DESMARIE">
+                    <li>Olivier BOUCHET : Développeur Web</li>
+                    <img src="images/olivier.jpg" alt="Olivier BOUCHET">
+                    <li>Benjamin DURANDIERE : Développeur Web</li>
+                    <img src="images/ben.PNG" alt="Benjamin DURANDIERE">
+                    <li>Lancelot GOURMELON : Développeur Web</li>
+                    <img src="images/lancelot.PNG" alt="Lancelot GOURMELON">
+                    <li>Adrien FONTENEAU : Développeur Web</li>
+                    <img src="images/adrien.jpg" alt="Adrien FONTENEAU">
+                </ul>
+                <p>C'est avec l'équipe Web que je passe mes six semaines de stage. Gwénolé était mon maitre de stage
+                mais c'est avec Lancelot que j'ai le plus travaillé. Il m'a beaucoup aidé sur ma première mission :
+                la mise à jour de Symfony</p>
+            </div>
+        </section>
+        
+        <section id="mes_missions">
+            <h2>Mes missions</h2>
+            <div id="mission_1">
+                <h3>Mise à jour Symfony</h3>
+                <p>Le but de la mission était de mettre à jour l'intranet de l'entreprise<br>J'ai donc débuté ma semaine
+                avec un symfony 2.5 et je suis passée par une étape intermédiaire qui était la 3.4. Une fois que
+                    celle-ci était fonctionnelle je suis passée à la mise à jour vers 4.4.</p>
+            </div>
+            <div id="mission_2">
+                <h3>Utilisation de Symfony</h3>
+                <p>Pour l'instant je ne sais pas en quoi va consister ma deuxieme mission.</p>
+            </div>
+        </section>
+        <section id="resume_stage">
+            <h2>Mes semaines de stage</h2>
+            <div id="semaine_1">
+                <h3>Ma première semaine chez Algam !</h3>
+                <p>A mon arrivé on m'a rapidement montré les locaux et je suis ensuite arrivé dans l'open-space où travaille l'équipe Web avec d'autres équipes telle que l'équipe Algam Web Store. Ici Gwénolé mon maitre de stage m'explique la première tache que je vais avoir à réaliser.</p>
+            </div>
+            <div id="semaine_1">
+                <h3>Ma première semaine chez Algam !</h3>
+                <p>A mon arrivé on m'a rapidement montré les locaux et je suis ensuite arrivé dans l'open-space où travaille l'équipe Web avec d'autres équipes telle que l'équipe Algam Web Store. Ici Gwénolé mon maitre de stage m'explique la première tache que je vais avoir à réaliser.</p>
+            </div>
+            <div id="semaine_1">
+                <h3>Ma première semaine chez Algam !</h3>
+                <p>A mon arrivé on m'a rapidement montré les locaux et je suis ensuite arrivé dans l'open-space où travaille l'équipe Web avec d'autres équipes telle que l'équipe Algam Web Store. Ici Gwénolé mon maitre de stage m'explique la première tache que je vais avoir à réaliser.</p>
+            </div>
+        </section>
+        
+        <section id="comp">
+            <h2>Les compétences acquises</h2>
+            <div>
+                <h3>Symfony</h3>
+                <p>Symfony est un framework de PHP créé en 2005</p>
+            </div>
+            <div>
+                <h3>Linux / Ubuntu</h3>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

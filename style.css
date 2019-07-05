@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #263859;
+}
+
+section{
+    background-color: #6B778D;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+div{
+    background-color: #FF6768;
+    width: 33%;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+
+a{
+    color: white;
+}
+
+#presentation_algam #section_web img{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#comp h3:first-child::after{
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    div{
+        background-color: #FFF365;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
